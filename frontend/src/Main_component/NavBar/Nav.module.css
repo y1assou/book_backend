@@ -1,0 +1,42 @@
+.Btns{
+    background: #dc3c31 !important;
+    margin: 0 20px;
+    border: 1px solid !important;
+    transition: 0.5s ease-in-out;
+    font-weight: 600;
+}
+.Btns:hover{
+    background: #d12317 !important;
+    color: #ffffff;
+    border: rgb(0, 0, 0);
+}
+.Link{
+    color: #162127;
+    margin-left: 40px;
+}
+.logo{
+    margin-left: 60px;
+    color: #dc3c31;
+    font-weight: 600;
+}
+.logo:hover{
+    color: #d12317;
+}
+
+
+/* .logo_image {
+    width: 20px;
+    scale: 6;
+} */
+
+@media screen and (max-width: 993px) {
+    .Btns{
+        margin: 30px 20px 0 0;
+    }
+    .Link{
+        margin-left: 0;
+    } 
+    .logo{
+        margin-left: 10px;
+    }
+}
